@@ -1,0 +1,79 @@
+/* body{
+    padding: 0;
+    margin: 0;
+} */
+main{
+    justify-content: center;
+    text-align: center;
+}
+main .media{
+    display: flex;
+    margin-left: 540px;
+    margin-top: 30px;
+}
+main .media img{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+footer p{
+    text-align: center;
+    background-color: rgba(6, 5, 5, 0.061);
+    height: 20px;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+    color: black;
+    padding: 30px;
+}
+
+main .profile,.media{
+    margin:15px 15px 20px 20px;
+}
+main .profile button{
+    background-color: #115CEC;
+    color: white;
+    border:none;
+    padding: 10px;
+    margin-top: 10px;
+    width:120px;
+    margin-right: 5px;
+}
+
+main .profile .name{
+    font-size: 25px;
+}
+main .profile .position{
+    margin-top: 2px;
+}
+header nav{
+    display: flex;
+    float:right;
+    margin-top: 15px;
+}
+header nav ul{
+    display: flex;
+    margin: 10px;
+    margin-left: 10px;
+}
+header nav ul a {
+    text-decoration: none;
+}
+header nav ul a li{
+    text-decoration: none;
+    padding: 0px;
+    margin-left: 70px;
+    list-style-type: none;
+    text-align: center;
+    float:right;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+}
+
+header nav .logo{
+    float: left;
+    margin-right: 100px;
+}
